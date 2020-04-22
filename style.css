@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@400;600&display=swap');
+body {
+  background-color: 323233;
+  font-family: Open Sans, cursive;
+  color: D7D7D8;
+  font-size: 1em;
+  line-height: auto;
+}
+
+h1,h2 {
+  color: ;
+  font-family: Quicksand, sans-serif;
+  line-height: 1,25em;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+a {
+  color: D7D7D8;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 25%;
+}
+
+i {
+  color: D7D7D8;
+  font-size: 2em;
+}
+
+.btn-grey {
+  display: inline-block;
+  padding: 10px;
+  background-color: D7D7D8;
+  color: 323233;
+  font-weight: bold;
+  border-radius: 5px
+}
+
+.text-center {
+  text-align: center;
+}
+.card-grey {
+  background-color: 4A4A4D;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto 10px auto;
+  box-shadow: 5px 5px 15px rgb(40,40,40);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > ul {
+  list-style: none;
+  padding-left: 0;
+}
